@@ -64,9 +64,7 @@ Type: TXT
 Name: @
 Data: "google-site-verification=7g5n6h7j8k9l0example"
 TTL: 3600
-``
-
-`
+```
 
 ### Other Records
 
