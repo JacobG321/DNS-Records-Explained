@@ -77,15 +77,15 @@ DNS records are typically managed through your domain registrar (the company whe
 Here is what you generally need to provide when adding a DNS record:
 
 1. **Type**: This is the type of DNS record, such as A, AAAA, CNAME, TXT, etc.
-2. **Name**: The domain or subdomain you are pointing. Use '@' for your plain domain (e.g. coolexample.com). Don't input your domain name in this field (e.g. 'www', not 'www.coolexample.com').
-3. **Data**: The destination of the record - the value varies based on the record type. For example, in an A Record, this would be the IP address of your website.
+2. **Name**: The domain or subdomain you are pointing. Use '@' for your plain domain (e.g., coolexample.com). Don't input your domain name in this field (e.g., 'www', not 'www.coolexample.com').
+3. **Data**: The destination of the record – the value varies based on the record type. For example, in an A Record, this would be the IP address of your website.
 4. **TTL**: The Time to Live, which determines how long the DNS resolver should cache the query before requesting a new one. Shorter TTLs mean faster DNS updates in the future, while longer TTLs mean more resilience and higher performance due to less frequent updates.
 
 Remember, the specific instructions for adding DNS records to your domain may vary based on the platform you're using for DNS management. It's always a good idea to refer to the specific documentation provided by your domain registrar or hosting provider.
 
 ## Checking DNS Propagation
 
-After making changes to your DNS records, it can take some time for these updates to propagate (or spread) across various DNS servers around the world. This propagation delay can range from a few minutes to 48 hours or more, depending on various factors including the TTL set for your DNS records.
+After making changes to your DNS records, it can take some time for these updates to propagate (or spread) across various DNS servers around the world. This propagation delay can range from a few minutes to 48 hours or more, depending on various factors, including the TTL set for your DNS records.
 
 During this time, some users may be directed to the old IP address while others are directed to the new one, depending on the DNS server they're using. This is why you might not immediately see the effects of DNS changes when browsing your website.
 
@@ -95,7 +95,7 @@ Keep in mind that even if the changes have propagated according to this tool, so
 
 ## Conclusion
 
-Understanding the basics of domain names, DNS, and DNS records is critical for managing your website and ensuring it's accessible on the internet. DNS records play a vital role in directing traffic to the correct locations, and incorrect or missing records can cause your site to be inaccessible or email to fail. By understanding what each type of record does and how to manage them, you can ensure your site is running smoothly and efficiently.
+Understanding the basics of domain names, DNS, and DNS records is critical for managing your website and ensuring it is accessible on the internet. DNS records play a vital role in directing traffic to the correct locations, and incorrect or missing records can cause your site to be inaccessible or email to fail. By understanding what each type of record does and how to manage them, you can ensure your site is running smoothly and efficiently.
 
 While DNS records may seem complicated at first, with a bit of practice and familiarity, they become easier to manage. Always remember to check your DNS records if you're experiencing issues with your site or email delivery. It's also important to note that changes to DNS records can take up to 48 hours to propagate across the internet due to caching, so don't be alarmed if changes don't take effect immediately.
 
