@@ -21,7 +21,7 @@ We welcome contributions to this repository! If you have additional information,
 
 ## Contact
 
-If you have any questions or need more information, feel free to [create an issue](https://github.com/jgruberorch/DNS-Records-Explained/issues/new) in this repository.
+If you have any questions or need more information, feel free to [create an issue](https://github.com/jacobg321/DNS-Records-Explained/issues/new) in this repository.
 
 ---
 
